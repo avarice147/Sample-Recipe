@@ -1,0 +1,95 @@
+/*GLOBAL*/
+
+body {
+  margin: 0;
+  padding: 0;
+
+}
+
+img {
+  height: auto;
+  display: inline-block;
+}
+
+.container {
+  height: auto;
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 300px);
+  grid-gap: 10px 50px;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  border: 1px solid black;
+
+
+}
+
+.box {
+  border: 1px solid black;
+  text-align: center;
+  width: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* TIME AND PARAGRAPHS*/
+
+h3 {
+  color: orange;
+  text-transform: capitalize;
+  font-family: serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.description {
+  color: grey;
+  text-transform: lowercase;
+  font-family: serif;
+  font-weight: lighter;
+  font-size: 20px;
+  border-top: 1px solid black;
+  padding: 20px 0px;
+  height: auto;
+}
+
+.time {
+  color: grey;
+  font-family: serif;
+  font-weight: bold;
+  font-size: 20px;
+  height: auto;
+}
+
+
+/*TOP BORDER*/
+
+
+header h1 {
+    text-align: center;
+    color: white;
+    background-color: orange;
+    height: 50px;
+    margin-top: auto;
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+/*CHOCOLATE MOUSE*/
+/*FOOTER*/
+
+footer h1 {
+  text-align: center;
+  color: white;
+  background-color: orange;
+  height: 50px;
+  margin-bottom: auto;
+  padding: 20px;
+  font-family: sans-serif;
+  font-size: 50px;
+  font-weight: lighter;
+}
