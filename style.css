@@ -3,12 +3,13 @@
 body {
   margin: 0;
   padding: 0;
-
+  min-width: 500px;
 }
 
 img {
   height: auto;
   display: inline-block;
+
 }
 
 .container {
@@ -22,7 +23,7 @@ img {
   justify-content: center;
   align-content: center;
   border: 1px solid black;
-
+  
 
 }
 
